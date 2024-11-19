@@ -1,9 +1,18 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Login from "./Login";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div >
+      <Login
+      className={styles.image}
+      src="/next.svg"
+      alt="LoginWallpaper.svg logo"
+      width={180}
+      height={38}
+      priority
+      />
       <main className={styles.main}>
         <Image
           className={styles.logo}

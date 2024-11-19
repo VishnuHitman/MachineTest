@@ -1,6 +1,6 @@
 @apiConnect_HostAddress = http://localhost:5258
 
-GET {{apiConnect_HostAddress}}/weatherforecast/
+GET http://localhost:5258/{{apiConnect_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
